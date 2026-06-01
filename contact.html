@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>联系轻微科技｜提交项目需求</title>
+  <meta name="description" content="联系广州轻微信息科技有限公司，咨询企业级软件、AI 中台、信息化平台建设、数据治理和系统集成项目。" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{screens:{"2xl":"1440px"},colors:{brand:{DEFAULT:"#38b449",dark:"#247a34"}}}}}</script>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .contact-form { display: grid; gap: 14px; }
+    .field { display: grid; gap: 7px; color: #334155; font-weight: 750; font-size: 14px; }
+    .field input, .field textarea, .field select {
+      width: 100%;
+      min-height: 46px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 11px 12px;
+      font: inherit;
+      color: var(--ink);
+      background: #fff;
+    }
+    .field textarea { min-height: 130px; resize: vertical; }
+  </style>
+</head>
+<body>
+  <div id="site-header"></div>
+  <main>
+    <section class="hero" style="--hero-image:url('tupian/qwe.png')">
+      <div class="wrap hero-content reveal">
+        <div class="eyebrow">Contact</div>
+        <h1>把你的项目需求发给我们</h1>
+        <p class="lead">适用于新系统建设、存量系统改造、多系统集成、数据治理和 AI 应用试点。我们会结合业务场景判断切入方式和启动优先级。</p>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="wrap three-grid">
+        <article class="card reveal"><h3>方案咨询</h3><p>适合需求还在梳理阶段，希望先判断建设范围和优先级。</p></article>
+        <article class="card reveal"><h3>项目合作</h3><p>适合项目已在推进，希望沟通建设路径、交付节奏和分工方式。</p></article>
+        <article class="card reveal"><h3>服务支持</h3><p>适合系统已上线，需要持续优化、版本升级或运营支持。</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap two-col">
+        <div class="card reveal">
+          <h2>需求提交</h2>
+          <p>表单为静态页面展示，正式上线时可接入邮件、CRM 或后台接口。也可以直接发送邮件到 <a href="mailto:qwe@qwetec.com">qwe@qwetec.com</a>。</p>
+          <form class="contact-form" action="#" method="post">
+            <label class="field">姓名<input name="name" autocomplete="name" placeholder="请输入姓名" /></label>
+            <label class="field">联系方式<input name="contact" autocomplete="tel" placeholder="电话或邮箱" /></label>
+            <label class="field">需求类型
+              <select name="type">
+                <option>信息化平台建设</option>
+                <option>系统集成与数据治理</option>
+                <option>AI 应用试点</option>
+                <option>长期运维与升级</option>
+              </select>
+            </label>
+            <label class="field">需求说明<textarea name="message" placeholder="请简单说明当前目标、现有系统情况和最急需解决的问题"></textarea></label>
+            <button class="btn btn-green" type="submit">提交需求</button>
+          </form>
+        </div>
+        <div class="feature-list reveal">
+          <article class="feature-item"><h3>联系邮箱</h3><p><a href="mailto:qwe@qwetec.com">qwe@qwetec.com</a></p></article>
+          <article class="feature-item"><h3>沟通建议</h3><p>如果已有需求文档、流程图、现有系统截图或数据接口说明，可以在首次沟通时一并提供。</p></article>
+          <article class="feature-item"><h3>适合启动的项目</h3><p>目标明确、使用部门真实参与、愿意按阶段验证价值的项目，通常更容易快速推进。</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script>window.__SITE__ = { active: "contact" };</script>
+  <script src="site-layout.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06111E"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38B449"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+  <g opacity="0.18">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200M0 630H1200" stroke="white"/>
+    <path d="M100 0V700M200 0V700M300 0V700M400 0V700M500 0V700M600 0V700M700 0V700M800 0V700M900 0V700M1000 0V700M1100 0V700" stroke="white"/>
+  </g>
+  <circle cx="170" cy="120" r="120" fill="#38B449" opacity="0.2" filter="url(#blur)"/>
+  <circle cx="1030" cy="140" r="140" fill="#06B6D4" opacity="0.18" filter="url(#blur)"/>
+  <text x="64" y="68" fill="white" opacity="0.85" font-size="28" font-family="Arial, sans-serif" font-weight="700">Qwe 企业级平台架构图</text>
+  <text x="64" y="98" fill="#94A3B8" font-size="14" font-family="Arial, sans-serif">平台 + 自动化 + AI Agent + 规则治理</text>
+
+  <rect x="64" y="136" width="1072" height="88" rx="18" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.12"/>
+  <text x="88" y="170" fill="#E2E8F0" font-size="16" font-family="Arial, sans-serif" font-weight="700">Business Applications / Organization Scenarios</text>
+  <text x="88" y="195" fill="#94A3B8" font-size="13" font-family="Arial, sans-serif">Teaching · Manufacturing · Supply Chain · Governance · Compliance · Operations</text>
+
+  <g>
+    <rect x="64" y="258" width="255" height="160" rx="18" fill="white" fill-opacity="0.05" stroke="#38B449" stroke-opacity="0.35"/>
+    <rect x="64" y="258" width="255" height="4" rx="2" fill="#38B449"/>
+    <text x="88" y="292" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="700">Qwe 中代码平台</text>
+    <text x="88" y="320" fill="#A7F3D0" font-size="13" font-family="Arial, sans-serif">MODEL / META / WORKFLOW / UI</text>
+    <text x="88" y="350" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">业务建模、流程编排、权限模型、配置化开发</text>
+    <text x="88" y="374" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">承载组织级业务系统与平台能力沉淀</text>
+  </g>
+
+  <g>
+    <rect x="339" y="258" width="255" height="160" rx="18" fill="white" fill-opacity="0.05" stroke="#06B6D4" stroke-opacity="0.35"/>
+    <rect x="339" y="258" width="255" height="4" rx="2" fill="#06B6D4"/>
+    <text x="363" y="292" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="700">RAP 自动化平台</text>
+    <text x="363" y="320" fill="#93C5FD" font-size="13" font-family="Arial, sans-serif">ORCHESTRATION / EXECUTION</text>
+    <text x="363" y="350" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">任务编排、跨系统流程执行、机器人运行</text>
+    <text x="363" y="374" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">异常处理、监控与自动化闭环</text>
+  </g>
+
+  <g>
+    <rect x="614" y="258" width="255" height="160" rx="18" fill="white" fill-opacity="0.05" stroke="#60A5FA" stroke-opacity="0.35"/>
+    <rect x="614" y="258" width="255" height="4" rx="2" fill="#60A5FA"/>
+    <text x="638" y="292" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="700">AI Agent 智能体</text>
+    <text x="638" y="320" fill="#BFDBFE" font-size="13" font-family="Arial, sans-serif">ASSIST / REASON / ACT</text>
+    <text x="638" y="350" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">开发协同、业务执行协同、运营优化建议</text>
+    <text x="638" y="374" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">在规则与治理边界内增强系统能力</text>
+  </g>
+
+  <g>
+    <rect x="889" y="258" width="247" height="160" rx="18" fill="white" fill-opacity="0.05" stroke="#F8FAFC" stroke-opacity="0.2"/>
+    <rect x="889" y="258" width="247" height="4" rx="2" fill="url(#line)"/>
+    <text x="913" y="292" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="700">规则与元数据引擎</text>
+    <text x="913" y="320" fill="#E2E8F0" font-size="13" font-family="Arial, sans-serif">RULES / POLICY / AUDIT / VERSION</text>
+    <text x="913" y="350" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">组织口径、规则配置、版本留痕、执行追踪</text>
+    <text x="913" y="374" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">支撑可治理、可审计、可持续演进</text>
+  </g>
+
+  <rect x="64" y="452" width="1072" height="172" rx="18" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.12"/>
+  <text x="88" y="488" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="700">Enterprise Foundations</text>
+  <text x="88" y="515" fill="#94A3B8" font-size="13" font-family="Arial, sans-serif">Integration · Governance · Security · Observability · Delivery Engineering</text>
+
+  <g fill="#E2E8F0" font-family="Arial, sans-serif" font-size="13">
+    <rect x="88" y="540" width="154" height="34" rx="10" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08"/>
+    <text x="110" y="562">API / SSO / Webhook</text>
+    <rect x="258" y="540" width="136" height="34" rx="10" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08"/>
+    <text x="285" y="562">权限与审计治理</text>
+    <rect x="410" y="540" width="128" height="34" rx="10" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08"/>
+    <text x="443" y="562">规则版本管理</text>
+    <rect x="554" y="540" width="128" height="34" rx="10" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08"/>
+    <text x="592" y="562">运行监控告警</text>
+    <rect x="698" y="540" width="144" height="34" rx="10" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08"/>
+    <text x="722" y="562">交付与迭代方案</text>
+    <rect x="858" y="540" width="158" height="34" rx="10" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08"/>
+    <text x="883" y="562">存量系统渐进改造</text>
+  </g>
+
+  <g stroke="url(#line)" stroke-width="2" stroke-opacity="0.8">
+    <path d="M192 224V246"/>
+    <path d="M467 224V246"/>
+    <path d="M742 224V246"/>
+    <path d="M1012 224V246"/>
+    <path d="M192 418V444"/>
+    <path d="M467 418V444"/>
+    <path d="M742 418V444"/>
+    <path d="M1012 418V444"/>
+  </g>
+</svg>

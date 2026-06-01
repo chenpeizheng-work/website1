@@ -1,0 +1,109 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071628"/>
+      <stop offset="1" stop-color="#0E1F37"/>
+    </linearGradient>
+    <linearGradient id="line" x1="180" y1="480" x2="1110" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38B449"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="cardTop" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="34" fill="url(#bg)"/>
+
+  <g opacity="0.16">
+    <path d="M0 120H1600M0 240H1600M0 360H1600M0 480H1600M0 600H1600M0 720H1600M0 840H1600" stroke="#E2E8F0"/>
+    <path d="M120 0V900M240 0V900M360 0V900M480 0V900M600 0V900M720 0V900M840 0V900M960 0V900M1080 0V900M1200 0V900M1320 0V900M1440 0V900" stroke="#E2E8F0"/>
+  </g>
+
+  <circle cx="1320" cy="160" r="180" fill="#06B6D4" opacity="0.22" filter="url(#blur)"/>
+  <circle cx="240" cy="170" r="170" fill="#38B449" opacity="0.2" filter="url(#blur)"/>
+  <circle cx="1280" cy="760" r="190" fill="#38B449" opacity="0.12" filter="url(#blur)"/>
+
+  <text x="72" y="84" fill="#FFFFFF" opacity="0.9" font-size="34" font-family="Arial, sans-serif" font-weight="700">客户服务与交付保障体系</text>
+  <text x="72" y="122" fill="#94A3B8" font-size="16" font-family="Arial, sans-serif">Service Assurance · Delivery Control · Long-term Partnership</text>
+
+  <g stroke="url(#line)" stroke-width="4" stroke-linecap="round">
+    <path d="M190 480H1060"/>
+  </g>
+  <g fill="url(#line)">
+    <circle cx="220" cy="480" r="7"/>
+    <circle cx="450" cy="480" r="7"/>
+    <circle cx="680" cy="480" r="7"/>
+    <circle cx="910" cy="480" r="7"/>
+  </g>
+
+  <g>
+    <rect x="120" y="330" width="210" height="220" rx="22" fill="url(#cardTop)" stroke="rgba(255,255,255,.25)"/>
+    <rect x="120" y="330" width="210" height="5" rx="2.5" fill="#38B449"/>
+    <text x="150" y="376" fill="#E2E8F0" font-size="14" font-family="Arial, sans-serif">01 / 需求诊断</text>
+    <text x="150" y="416" fill="#FFFFFF" font-size="20" font-family="Arial, sans-serif" font-weight="700">明确目标与边界</text>
+    <text x="150" y="456" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">业务现状盘点</text>
+    <text x="150" y="482" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">关键问题识别</text>
+    <text x="150" y="508" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">优先级定义</text>
+  </g>
+
+  <g>
+    <rect x="350" y="250" width="210" height="220" rx="22" fill="url(#cardTop)" stroke="rgba(255,255,255,.25)"/>
+    <rect x="350" y="250" width="210" height="5" rx="2.5" fill="#06B6D4"/>
+    <text x="380" y="296" fill="#E2E8F0" font-size="14" font-family="Arial, sans-serif">02 / 方案设计</text>
+    <text x="380" y="336" fill="#FFFFFF" font-size="20" font-family="Arial, sans-serif" font-weight="700">路径可执行</text>
+    <text x="380" y="376" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">技术路线规划</text>
+    <text x="380" y="402" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">阶段目标划分</text>
+    <text x="380" y="428" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">验收口径明确</text>
+  </g>
+
+  <g>
+    <rect x="580" y="330" width="210" height="220" rx="22" fill="url(#cardTop)" stroke="rgba(255,255,255,.25)"/>
+    <rect x="580" y="330" width="210" height="5" rx="2.5" fill="#60A5FA"/>
+    <text x="610" y="376" fill="#E2E8F0" font-size="14" font-family="Arial, sans-serif">03 / 建设交付</text>
+    <text x="610" y="416" fill="#FFFFFF" font-size="20" font-family="Arial, sans-serif" font-weight="700">分阶段落地</text>
+    <text x="610" y="456" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">平台建设与集成</text>
+    <text x="610" y="482" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">联调与上线</text>
+    <text x="610" y="508" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">过程透明可追踪</text>
+  </g>
+
+  <g>
+    <rect x="810" y="250" width="210" height="220" rx="22" fill="url(#cardTop)" stroke="rgba(255,255,255,.25)"/>
+    <rect x="810" y="250" width="210" height="5" rx="2.5" fill="#38B449"/>
+    <text x="840" y="296" fill="#E2E8F0" font-size="14" font-family="Arial, sans-serif">04 / 持续优化</text>
+    <text x="840" y="336" fill="#FFFFFF" font-size="20" font-family="Arial, sans-serif" font-weight="700">长期价值提升</text>
+    <text x="840" y="376" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">运行监控告警</text>
+    <text x="840" y="402" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">版本迭代优化</text>
+    <text x="840" y="428" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">能力持续扩展</text>
+  </g>
+
+  <g>
+    <rect x="1090" y="180" width="430" height="540" rx="28" fill="rgba(2,6,23,.45)" stroke="rgba(255,255,255,.22)"/>
+    <rect x="1090" y="180" width="430" height="5" rx="2.5" fill="url(#line)"/>
+    <text x="1128" y="238" fill="#E2E8F0" font-size="16" font-family="Arial, sans-serif">交付保障看板 / Assurance Dashboard</text>
+
+    <rect x="1128" y="274" width="354" height="94" rx="16" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.16)"/>
+    <text x="1154" y="312" fill="#FFFFFF" font-size="15" font-family="Arial, sans-serif">SLA 响应机制</text>
+    <text x="1420" y="312" fill="#86EFAC" font-size="13" font-family="Arial, sans-serif">稳定运行</text>
+    <text x="1154" y="342" fill="#94A3B8" font-size="13" font-family="Arial, sans-serif">需求沟通 · 方案确认 · 交付支持 · 持续服务</text>
+
+    <rect x="1128" y="392" width="170" height="130" rx="16" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.16)"/>
+    <text x="1152" y="430" fill="#94A3B8" font-size="12" font-family="Arial, sans-serif">交付节奏</text>
+    <text x="1152" y="470" fill="#FFFFFF" font-size="30" font-family="Arial, sans-serif" font-weight="700">4 阶段</text>
+    <text x="1152" y="498" fill="#CBD5E1" font-size="12" font-family="Arial, sans-serif">可追踪推进</text>
+
+    <rect x="1312" y="392" width="170" height="130" rx="16" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.16)"/>
+    <text x="1336" y="430" fill="#94A3B8" font-size="12" font-family="Arial, sans-serif">服务模式</text>
+    <text x="1336" y="470" fill="#FFFFFF" font-size="30" font-family="Arial, sans-serif" font-weight="700">长期</text>
+    <text x="1336" y="498" fill="#CBD5E1" font-size="12" font-family="Arial, sans-serif">持续陪跑</text>
+
+    <rect x="1128" y="548" width="354" height="132" rx="16" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.16)"/>
+    <text x="1152" y="588" fill="#FFFFFF" font-size="15" font-family="Arial, sans-serif">服务价值</text>
+    <text x="1152" y="618" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">快速响应 · 过程透明 · 可验收可追踪</text>
+    <text x="1152" y="644" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">风险可控 · 交付稳定 · 持续优化演进</text>
+  </g>
+</svg>

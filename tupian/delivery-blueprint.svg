@@ -1,0 +1,77 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dbbg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F3F8FC"/>
+    </linearGradient>
+    <linearGradient id="dbline" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38B449"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="28" fill="url(#dbbg)"/>
+  <g opacity="0.12">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200M0 630H1200" stroke="#0F172A"/>
+    <path d="M100 0V700M200 0V700M300 0V700M400 0V700M500 0V700M600 0V700M700 0V700M800 0V700M900 0V700M1000 0V700M1100 0V700" stroke="#0F172A"/>
+  </g>
+  <text x="60" y="70" fill="#0F172A" font-size="28" font-family="Arial, sans-serif" font-weight="700">软件交付蓝图</text>
+  <text x="60" y="98" fill="#64748B" font-size="14" font-family="Arial, sans-serif">架构规划 · 平台建设 · Agent 集成 · 迭代交付</text>
+
+  <g>
+    <rect x="60" y="150" width="240" height="420" rx="22" fill="white" stroke="#E2E8F0"/>
+    <rect x="60" y="150" width="240" height="4" rx="2" fill="#38B449"/>
+    <text x="88" y="188" fill="#0F172A" font-size="18" font-family="Arial, sans-serif" font-weight="700">01 现状与规划</text>
+    <text x="88" y="216" fill="#64748B" font-size="13" font-family="Arial, sans-serif">Architecture / Scope / Governance</text>
+    <text x="88" y="256" fill="#334155" font-size="14" font-family="Arial, sans-serif">• 业务现状盘点</text>
+    <text x="88" y="286" fill="#334155" font-size="14" font-family="Arial, sans-serif">• 系统边界与目标确认</text>
+    <text x="88" y="316" fill="#334155" font-size="14" font-family="Arial, sans-serif">• 技术路线与演进规划</text>
+    <text x="88" y="346" fill="#334155" font-size="14" font-family="Arial, sans-serif">• 治理与合规要求纳入</text>
+  </g>
+
+  <g>
+    <rect x="330" y="150" width="240" height="420" rx="22" fill="white" stroke="#E2E8F0"/>
+    <rect x="330" y="150" width="240" height="4" rx="2" fill="#06B6D4"/>
+    <text x="358" y="188" fill="#0F172A" font-size="18" font-family="Arial, sans-serif" font-weight="700">02 平台与集成</text>
+    <text x="358" y="216" fill="#64748B" font-size="13" font-family="Arial, sans-serif">Qwe / API / SSO / Rules</text>
+    <text x="358" y="256" fill="#334155" font-size="14" font-family="Arial, sans-serif">• Qwe 平台能力建设</text>
+    <text x="358" y="286" fill="#334155" font-size="14" font-family="Arial, sans-serif">• 数据模型与流程模型</text>
+    <text x="358" y="316" fill="#334155" font-size="14" font-family="Arial, sans-serif">• 存量系统集成与改造</text>
+    <text x="358" y="346" fill="#334155" font-size="14" font-family="Arial, sans-serif">• 规则与元数据配置</text>
+  </g>
+
+  <g>
+    <rect x="600" y="150" width="240" height="420" rx="22" fill="white" stroke="#E2E8F0"/>
+    <rect x="600" y="150" width="240" height="4" rx="2" fill="#60A5FA"/>
+    <text x="628" y="188" fill="#0F172A" font-size="18" font-family="Arial, sans-serif" font-weight="700">03 AI 与自动化</text>
+    <text x="628" y="216" fill="#64748B" font-size="13" font-family="Arial, sans-serif">Agent / RAP / Orchestration</text>
+    <text x="628" y="256" fill="#334155" font-size="14" font-family="Arial, sans-serif">• Agent 协同开发接入</text>
+    <text x="628" y="286" fill="#334155" font-size="14" font-family="Arial, sans-serif">• RAP 执行编排闭环</text>
+    <text x="628" y="316" fill="#334155" font-size="14" font-family="Arial, sans-serif">• 场景化自动化落地</text>
+    <text x="628" y="346" fill="#334155" font-size="14" font-family="Arial, sans-serif">• 运行观测与优化策略</text>
+  </g>
+
+  <g>
+    <rect x="870" y="150" width="270" height="420" rx="22" fill="#0F172A"/>
+    <rect x="870" y="150" width="270" height="4" rx="2" fill="url(#dbline)"/>
+    <g opacity="0.12">
+      <path d="M870 210H1140M870 270H1140M870 330H1140M870 390H1140M870 450H1140M870 510H1140" stroke="white"/>
+      <path d="M930 150V570M990 150V570M1050 150V570M1110 150V570" stroke="white"/>
+    </g>
+    <text x="898" y="188" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="700">04 交付与持续演进</text>
+    <text x="898" y="216" fill="#94A3B8" font-size="13" font-family="Arial, sans-serif">Delivery / QA / Ops / Iteration</text>
+    <text x="898" y="256" fill="#E2E8F0" font-size="14" font-family="Arial, sans-serif">• 分阶段交付与验收</text>
+    <text x="898" y="286" fill="#E2E8F0" font-size="14" font-family="Arial, sans-serif">• 版本治理与回滚策略</text>
+    <text x="898" y="316" fill="#E2E8F0" font-size="14" font-family="Arial, sans-serif">• 监控告警与运营支撑</text>
+    <text x="898" y="346" fill="#E2E8F0" font-size="14" font-family="Arial, sans-serif">• 持续优化与能力沉淀</text>
+    <rect x="898" y="388" width="214" height="112" rx="14" fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.08"/>
+    <text x="920" y="422" fill="#CBD5E1" font-size="13" font-family="Arial, sans-serif">长期价值导向：</text>
+    <text x="920" y="450" fill="#E2E8F0" font-size="14" font-family="Arial, sans-serif">不是一次性交付结束，</text>
+    <text x="920" y="476" fill="#E2E8F0" font-size="14" font-family="Arial, sans-serif">而是平台能力持续演进。</text>
+  </g>
+
+  <g stroke="url(#dbline)" stroke-width="3" stroke-linecap="round">
+    <path d="M300 360H326"/>
+    <path d="M570 360H596"/>
+    <path d="M840 360H866"/>
+  </g>
+</svg>
