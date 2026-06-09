@@ -119,7 +119,7 @@ h3 { margin-bottom: 10px; font-size: 20px; line-height: 1.35; }
 .feature-item { padding: 20px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
 .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
 .chip { display: inline-flex; align-items: center; min-height: 34px; padding: 0 12px; border-radius: 8px; background: #eef7f0; color: #226a30; font-weight: 800; font-size: 13px; }
-.dark-band { color: #fff; background: linear-gradient(135deg, rgba(9,22,37,.98), rgba(26,50,75,.96)), url("tupian/case-patterns.png") center / cover no-repeat; }
+.dark-band { color: #fff; background: linear-gradient(135deg, rgba(9,22,37,.98), rgba(26,50,75,.96)), url("tupian/case-patterns.webp") center / cover no-repeat; }
 .dark-band .lead, .dark-band p { color: rgba(255,255,255,.75); }
 .dark-band .card { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.14); box-shadow: none; }
 
