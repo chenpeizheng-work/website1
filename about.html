@@ -3,56 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>关于我们｜广州轻微信息科技有限公司</title>
-  <meta name="description" content="广州轻微信息科技有限公司专注企业级软件、AI 应用、信息化平台建设和产学研协同创新。" />
+  <title>关于我们｜轻微科技</title>
+  <meta name="description" content="轻微科技以科研能力、技术能力和工程化交付能力，支撑政府、高校、科研机构与集团企业的信息化系统建设。" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>tailwind.config={theme:{extend:{screens:{"2xl":"1440px"},colors:{brand:{DEFAULT:"#38b449",dark:"#247a34"}}}}}</script>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    :root{--line:#dce5ee;--ease:cubic-bezier(.22,.9,.22,1)}
+    html{scroll-behavior:smooth}body{background:#fff;color:#0b1727}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Courier New",monospace;letter-spacing:.02em}
+    .about-hero{background:linear-gradient(90deg,rgba(255,255,255,.98),rgba(255,255,255,.90) 46%,rgba(255,255,255,.26)),url("tupian/about-research-collaboration.png") center right/cover no-repeat}
+    .section-label{display:inline-flex;align-items:center;gap:.65rem;color:#247a34;font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.section-label:before{content:"";width:28px;height:2px;border-radius:999px;background:#38b449}
+    .card{background:#fff;border:1px solid var(--line);box-shadow:0 14px 42px rgba(11,23,39,.05);transition:transform .22s var(--ease),box-shadow .22s var(--ease),border-color .22s var(--ease)}.card:hover{transform:translateY(-3px);border-color:rgba(56,180,73,.34);box-shadow:0 20px 56px rgba(11,23,39,.08)}
+    .soft-panel{background:rgba(255,255,255,.92);border:1px solid var(--line);box-shadow:0 18px 50px rgba(11,23,39,.06)}
+    .chip{display:inline-flex;border-radius:999px;border:1px solid rgba(56,180,73,.24);background:#fff;padding:.48rem .82rem;font-size:13px;font-weight:800;color:#247a34}
+    .tech-outline{box-shadow:inset 0 0 0 1px rgba(6,182,212,.10),inset 0 1px 0 rgba(255,255,255,.65)}
+    .btn-focus:focus-visible{outline:2px solid rgba(56,180,73,.35);outline-offset:3px}
+  </style>
 </head>
-<body>
+<body class="font-sans antialiased text-slate-700">
   <div id="site-header"></div>
   <main>
-    <section class="hero" style="--hero-image:url('tupian/about-hero-bg.png')">
-      <div class="wrap hero-content reveal">
-        <div class="eyebrow">About</div>
-        <h1>以研发能力和工程交付能力，陪伴客户长期演进</h1>
-        <p class="lead">轻微科技长期面向复杂组织提供企业级软件与智能化解决方案，依托研发团队、平台产品和产学研协同机制，持续推动技术在真实业务场景中落地。</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="wrap two-col">
-        <div class="reveal">
-          <div class="eyebrow">Company</div>
-          <h2>我们更关注系统上线后的可用性</h2>
-          <p class="lead">信息化建设最难的部分，往往不是写出第一版系统，而是让它适应组织变化、数据变化和业务规则变化。轻微科技将平台化能力、AI 能力和软件工程实践结合起来，减少客户后续维护压力。</p>
-        </div>
-        <div class="image-panel split-image reveal"><img src="tupian/about-research.png" alt="研发与协同场景" /></div>
-      </div>
-    </section>
-
-    <section class="section soft">
-      <div class="wrap">
-        <div class="section-head reveal"><div class="eyebrow">Values</div><h2>我们坚持的建设原则</h2></div>
-        <div class="three-grid">
-          <article class="card reveal"><h3>先理解业务</h3><p>技术方案必须服务于组织目标、流程效率和管理质量。</p></article>
-          <article class="card reveal"><h3>重视工程质量</h3><p>可维护、可追踪、可扩展的系统，才适合长期使用。</p></article>
-          <article class="card reveal"><h3>持续沉淀能力</h3><p>把每个项目中的共性能力沉淀为平台组件和交付方法。</p></article>
+    <section class="about-hero min-h-[640px] flex items-center">
+      <div class="max-w-[1400px] mx-auto px-6 py-20 w-full">
+        <div class="max-w-4xl">
+          <div class="inline-flex items-center gap-3 rounded-full border border-slate-200 bg-white/80 px-4 py-2 text-xs font-extrabold text-slate-600 shadow-sm"><span class="h-2 w-2 rounded-full bg-brand"></span>科研能力 · 技术能力 · 工程化交付</div>
+          <h1 class="mt-7 text-4xl sm:text-5xl lg:text-[64px] font-black leading-[1.08] tracking-normal text-slate-950">以科研能力与技术能力，支撑政企信息化系统建设</h1>
+          <p class="mt-7 max-w-3xl text-base sm:text-lg leading-8 text-slate-600">轻微科技与高校保持深度产学研合作，核心底座研发人员具有博士背景，并在中山大学、华南理工大学、广东工业大学、广东药科大学等高校任职或开展科研合作。</p>
+          <p class="mt-4 max-w-3xl text-base sm:text-lg leading-8 text-slate-600">我们将高校科研能力、平台底座研发和工程化交付结合起来，为政府、高校、科研机构、集团企业等客户提供可信、可落地、可持续演进的信息化系统建设服务。</p>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="wrap four-grid reveal">
-        <article class="card metric"><strong>研发</strong><p>自研 Qwe 企业级 AI 中台</p></article>
-        <article class="card metric"><strong>交付</strong><p>需求、设计、开发、测试、上线闭环</p></article>
-        <article class="card metric"><strong>协同</strong><p>产学研合作与技术验证机制</p></article>
-        <article class="card metric"><strong>服务</strong><p>面向长期运营的版本迭代支持</p></article>
+    <section class="py-14 lg:py-20 bg-white">
+      <div class="max-w-[1400px] mx-auto px-6 grid md:grid-cols-4 gap-4">
+        <article class="card rounded-[8px] p-6"><div class="text-2xl font-black text-slate-950">科研</div><p class="mt-3 text-sm leading-6 text-slate-600">高校合作与博士研发背景。</p></article>
+        <article class="card rounded-[8px] p-6"><div class="text-2xl font-black text-slate-950">平台</div><p class="mt-3 text-sm leading-6 text-slate-600">Qwe 信息系统构建底座。</p></article>
+        <article class="card rounded-[8px] p-6"><div class="text-2xl font-black text-slate-950">交付</div><p class="mt-3 text-sm leading-6 text-slate-600">从方案设计到上线运维。</p></article>
+        <article class="card rounded-[8px] p-6"><div class="text-2xl font-black text-slate-950">演进</div><p class="mt-3 text-sm leading-6 text-slate-600">面向长期运营持续迭代。</p></article>
+      </div>
+    </section>
+
+    <section class="py-16 lg:py-24 bg-[#f5f8fb]">
+      <div class="max-w-[1400px] mx-auto px-6 grid lg:grid-cols-[.95fr_1.05fr] gap-10 lg:gap-14 items-center">
+        <div>
+          <div class="section-label">Company</div>
+          <h2 class="mt-4 text-3xl sm:text-4xl lg:text-5xl font-black leading-tight text-slate-950">技术驱动的信息化建设服务商</h2>
+          <p class="mt-5 text-base leading-8 text-slate-600">轻微科技不是单纯承接软件开发，而是以科研背景、平台底座和工程交付体系支撑客户长期建设。我们关注系统是否能真正上线、稳定使用，并随着组织业务持续演进。</p>
+          <div class="mt-7 flex flex-wrap gap-2">
+            <span class="chip">中山大学</span><span class="chip">华南理工大学</span><span class="chip">广东工业大学</span><span class="chip">广东药科大学</span>
+          </div>
+        </div>
+        <div class="soft-panel rounded-[8px] overflow-hidden"><img src="tupian/about-collaboration-smooth.png" alt="高校科研合作与技术团队" class="w-full h-[460px] object-cover"></div>
+      </div>
+    </section>
+
+    <section class="py-16 lg:py-24 bg-white">
+      <div class="max-w-[1400px] mx-auto px-6">
+        <div class="max-w-4xl">
+          <div class="section-label">Trust</div>
+          <h2 class="mt-4 text-3xl sm:text-4xl lg:text-5xl font-black leading-tight text-slate-950">用科研背景、平台能力和交付经验建立信任</h2>
+          <p class="mt-5 text-base leading-8 text-slate-600">客户选择信息化建设伙伴，本质上是在选择一套可靠的技术判断、项目方法和长期服务能力。</p>
+        </div>
+        <div class="mt-10 grid md:grid-cols-3 gap-5">
+          <article class="card rounded-[8px] p-7"><div class="text-sm font-black text-brand mono">01</div><h3 class="mt-4 text-xl font-black text-slate-950">科研背景</h3><p class="mt-3 text-sm leading-7 text-slate-600">核心底座研发人员具有博士背景，并与多所高校保持长期产学研合作，持续吸收前沿技术方法。</p></article>
+          <article class="card rounded-[8px] p-7"><div class="text-sm font-black text-brand mono">02</div><h3 class="mt-4 text-xl font-black text-slate-950">平台能力</h3><p class="mt-3 text-sm leading-7 text-slate-600">围绕 Qwe 平台沉淀表单、流程、权限、数据、系统集成和 AI 大模型接入能力。</p></article>
+          <article class="card rounded-[8px] p-7"><div class="text-sm font-black text-brand mono">03</div><h3 class="mt-4 text-xl font-black text-slate-950">工程交付</h3><p class="mt-3 text-sm leading-7 text-slate-600">以需求梳理、架构设计、开发实施、上线运维和持续迭代，保障系统长期可用。</p></article>
+        </div>
       </div>
     </section>
   </main>
   <div id="site-footer"></div>
-  <script>window.__SITE__ = { active: "about" };</script>
-  <script src="site-layout.js"></script>
+  <script>window.__SITE_LAYOUT__={activeNav:"about",headerCtaText:"预约技术交流",footerBadge:"轻微科技 / 关于我们 About",footerDescription:"以科研能力、技术能力和工程化交付能力，支撑政府、高校、科研机构与集团企业的信息化系统建设。",footerLinks:[{href:"technology.html",label:"平台与技术"},{href:"solutions.html",label:"解决方案"},{href:"contact.html",label:"技术交流"}]};</script>
+  <script src="site-layout.js?v=20260609-final"></script>
 </body>
 </html>

@@ -3,76 +3,73 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>联系轻微科技｜提交项目需求</title>
-  <meta name="description" content="联系广州轻微信息科技有限公司，咨询企业级软件、AI 中台、信息化平台建设、数据治理和系统集成项目。" />
+  <title>联系我们｜项目咨询与方案交流｜轻微科技</title>
+  <meta name="description" content="联系轻微科技，咨询信息化平台建设、系统集成、数据治理、AI 能力接入、软件开发和长期运维服务。" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>tailwind.config={theme:{extend:{screens:{"2xl":"1440px"},colors:{brand:{DEFAULT:"#38b449",dark:"#247a34"}}}}}</script>
-  <link rel="stylesheet" href="styles.css" />
   <style>
-    .contact-form { display: grid; gap: 14px; }
-    .field { display: grid; gap: 7px; color: #334155; font-weight: 750; font-size: 14px; }
-    .field input, .field textarea, .field select {
-      width: 100%;
-      min-height: 46px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 11px 12px;
-      font: inherit;
-      color: var(--ink);
-      background: #fff;
-    }
-    .field textarea { min-height: 130px; resize: vertical; }
+    :root{--line:#dce5ee;--ease:cubic-bezier(.22,.9,.22,1)}
+    html{scroll-behavior:smooth}body{background:#fff;color:#0b1727}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Courier New",monospace;letter-spacing:.02em}
+    .contact-hero{background:linear-gradient(90deg,rgba(255,255,255,.98),rgba(255,255,255,.88) 46%,rgba(255,255,255,.24)),url("tupian/hero-digital-system.png") center right/cover no-repeat}
+    .section-label{display:inline-flex;align-items:center;gap:.65rem;color:#247a34;font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.section-label:before{content:"";width:28px;height:2px;border-radius:999px;background:#38b449}
+    .card{background:#fff;border:1px solid var(--line);box-shadow:0 14px 42px rgba(11,23,39,.05);transition:transform .22s var(--ease),box-shadow .22s var(--ease),border-color .22s var(--ease)}.card:hover{transform:translateY(-3px);border-color:rgba(56,180,73,.34);box-shadow:0 20px 56px rgba(11,23,39,.08)}
+    .field{display:grid;gap:7px;color:#334155;font-weight:800;font-size:14px}.field input,.field textarea,.field select{width:100%;min-height:46px;border:1px solid var(--line);border-radius:8px;padding:11px 12px;font:inherit;color:#0f172a;background:#fff}.field textarea{min-height:132px;resize:vertical}
+    .address-block{border:1px solid rgba(56,180,73,.28);background:linear-gradient(135deg,#f2fff5,#fff 58%,#eef7ff);box-shadow:0 20px 60px rgba(11,23,39,.06)}
+    .btn-primary-pro{box-shadow:0 12px 26px rgba(56,180,73,.20);transition:transform .18s var(--ease),box-shadow .18s var(--ease)}.btn-primary-pro:hover{transform:translateY(-1px);box-shadow:0 16px 34px rgba(56,180,73,.27)}.btn-focus:focus-visible{outline:2px solid rgba(56,180,73,.35);outline-offset:3px}
+    .tech-outline{box-shadow:inset 0 0 0 1px rgba(6,182,212,.10),inset 0 1px 0 rgba(255,255,255,.65)}
   </style>
 </head>
-<body>
+<body class="font-sans antialiased text-slate-700">
   <div id="site-header"></div>
   <main>
-    <section class="hero" style="--hero-image:url('tupian/qwe.png')">
-      <div class="wrap hero-content reveal">
-        <div class="eyebrow">Contact</div>
-        <h1>把你的项目需求发给我们</h1>
-        <p class="lead">适用于新系统建设、存量系统改造、多系统集成、数据治理和 AI 应用试点。我们会结合业务场景判断切入方式和启动优先级。</p>
+    <section class="contact-hero min-h-[600px] flex items-center">
+      <div class="max-w-[1400px] mx-auto px-6 py-20 w-full">
+        <div class="max-w-4xl">
+          <div class="inline-flex items-center gap-3 rounded-full border border-slate-200 bg-white/80 px-4 py-2 text-xs font-extrabold text-slate-600 shadow-sm"><span class="h-2 w-2 rounded-full bg-brand"></span>Contact</div>
+          <h1 class="mt-7 text-4xl sm:text-5xl lg:text-[64px] font-black leading-[1.08] tracking-normal text-slate-950">把您的系统建设需求发给我们</h1>
+          <p class="mt-7 max-w-3xl text-base sm:text-lg leading-8 text-slate-600">欢迎沟通信息化平台建设、数据治理、系统集成、软件开发、Qwe 平台应用和 AI 能力接入等需求。我们会结合业务场景和建设阶段，给出更适合的推进建议。</p>
+        </div>
       </div>
     </section>
 
-    <section class="section soft">
-      <div class="wrap three-grid">
-        <article class="card reveal"><h3>方案咨询</h3><p>适合需求还在梳理阶段，希望先判断建设范围和优先级。</p></article>
-        <article class="card reveal"><h3>项目合作</h3><p>适合项目已在推进，希望沟通建设路径、交付节奏和分工方式。</p></article>
-        <article class="card reveal"><h3>服务支持</h3><p>适合系统已上线，需要持续优化、版本升级或运营支持。</p></article>
+    <section class="py-14 lg:py-20 bg-white">
+      <div class="max-w-[1400px] mx-auto px-6 grid md:grid-cols-3 gap-5">
+        <article class="card rounded-[8px] p-7"><div class="text-sm font-black text-brand mono">01</div><h3 class="mt-4 text-xl font-black text-slate-950">方案咨询</h3><p class="mt-3 text-sm leading-7 text-slate-600">适合需求还在梳理阶段，希望先判断建设范围、系统边界和建设优先级。</p></article>
+        <article class="card rounded-[8px] p-7"><div class="text-sm font-black text-brand mono">02</div><h3 class="mt-4 text-xl font-black text-slate-950">项目合作</h3><p class="mt-3 text-sm leading-7 text-slate-600">适合项目已在推进，希望沟通建设路径、交付节奏、集成方式和分工方式。</p></article>
+        <article class="card rounded-[8px] p-7"><div class="text-sm font-black text-brand mono">03</div><h3 class="mt-4 text-xl font-black text-slate-950">服务支持</h3><p class="mt-3 text-sm leading-7 text-slate-600">适合系统已上线，需要持续优化、版本升级、运维保障或 AI 能力接入。</p></article>
       </div>
     </section>
 
-    <section class="section">
-      <div class="wrap two-col">
-        <div class="card reveal">
-          <h2>需求提交</h2>
-          <p>表单为静态页面展示，正式上线时可接入邮件、CRM 或后台接口。也可以直接发送邮件到 <a href="mailto:qwe@qwetec.com">qwe@qwetec.com</a>。</p>
-          <form class="contact-form" action="#" method="post">
-            <label class="field">姓名<input name="name" autocomplete="name" placeholder="请输入姓名" /></label>
-            <label class="field">联系方式<input name="contact" autocomplete="tel" placeholder="电话或邮箱" /></label>
-            <label class="field">需求类型
-              <select name="type">
-                <option>信息化平台建设</option>
-                <option>系统集成与数据治理</option>
-                <option>AI 应用试点</option>
-                <option>长期运维与升级</option>
-              </select>
-            </label>
-            <label class="field">需求说明<textarea name="message" placeholder="请简单说明当前目标、现有系统情况和最急需解决的问题"></textarea></label>
-            <button class="btn btn-green" type="submit">提交需求</button>
+    <section class="py-16 lg:py-24 bg-[#f5f8fb]">
+      <div class="max-w-[1400px] mx-auto px-6 grid lg:grid-cols-[1.05fr_.95fr] gap-8 lg:gap-12 items-start">
+        <div class="card rounded-[8px] p-6 sm:p-8">
+          <div class="section-label">Project Inquiry</div>
+          <h2 class="mt-4 text-3xl sm:text-4xl font-black leading-tight text-slate-950">项目咨询</h2>
+          <p class="mt-4 text-sm sm:text-base leading-8 text-slate-600">表单为静态页面展示，正式上线时可接入邮件、CRM 或后台接口。也可以直接发送邮件到 <a class="font-extrabold text-brand-dark" href="mailto:qwe@qwetec.com">qwe@qwetec.com</a>。</p>
+          <form class="mt-7 grid gap-4" action="#" method="post">
+            <label class="field">姓名<input type="text" name="name" placeholder="请输入姓名" /></label>
+            <label class="field">联系方式<input type="text" name="contact" placeholder="电话或邮箱" /></label>
+            <label class="field">单位/组织<input type="text" name="company" placeholder="请输入单位名称" /></label>
+            <label class="field">咨询类型<select name="type"><option>信息化平台建设</option><option>软件开发 / App / 小程序</option><option>系统集成与数据治理</option><option>AI 能力接入</option><option>Qwe 平台咨询</option><option>长期运维服务</option></select></label>
+            <label class="field">需求描述<textarea name="message" placeholder="可简要说明业务场景、现有系统、期望目标和时间计划"></textarea></label>
+            <button class="btn-primary-pro btn-focus inline-flex h-12 w-full sm:w-auto items-center justify-center rounded-full bg-brand px-8 text-sm font-black text-white hover:bg-brand-dark" type="submit">提交咨询</button>
           </form>
         </div>
-        <div class="feature-list reveal">
-          <article class="feature-item"><h3>联系邮箱</h3><p><a href="mailto:qwe@qwetec.com">qwe@qwetec.com</a></p></article>
-          <article class="feature-item"><h3>沟通建议</h3><p>如果已有需求文档、流程图、现有系统截图或数据接口说明，可以在首次沟通时一并提供。</p></article>
-          <article class="feature-item"><h3>适合启动的项目</h3><p>目标明确、使用部门真实参与、愿意按阶段验证价值的项目，通常更容易快速推进。</p></article>
+        <div class="grid gap-5">
+          <div class="address-block rounded-[8px] p-7 sm:p-8">
+            <div class="section-label">Office Address</div>
+            <h2 class="mt-4 text-3xl sm:text-4xl font-black leading-tight text-slate-950">办公地址</h2>
+            <p class="mt-5 text-xl sm:text-2xl font-black leading-9 text-slate-950">广州大学城青蓝街 22 号大学城科技园 创业楼 B-701</p>
+          </div>
+          <article class="card rounded-[8px] p-6"><h3 class="text-xl font-black text-slate-950">联系邮箱</h3><p class="mt-3 text-base leading-7 text-slate-600"><a class="font-extrabold text-brand-dark" href="mailto:qwe@qwetec.com">qwe@qwetec.com</a></p></article>
+          <article class="card rounded-[8px] p-6"><h3 class="text-xl font-black text-slate-950">联系电话</h3><p class="mt-3 text-base leading-7 text-slate-600"><a class="font-extrabold text-brand-dark" href="tel:13751885669">13751885669</a></p></article>
+          <article class="card rounded-[8px] p-6"><h3 class="text-xl font-black text-slate-950">沟通建议</h3><p class="mt-3 text-sm leading-7 text-slate-600">如果已有需求文档、流程图、现有系统截图或数据接口说明，可以在首次沟通时一并提供。</p></article>
         </div>
       </div>
     </section>
   </main>
   <div id="site-footer"></div>
-  <script>window.__SITE__ = { active: "contact" };</script>
-  <script src="site-layout.js"></script>
+  <script>window.__SITE_LAYOUT__={activeNav:"contact",headerCtaText:"预约技术交流",footerBadge:"轻微科技 / 联系我们 Contact",footerDescription:"欢迎沟通信息化平台建设、数据治理、系统集成、软件开发、Qwe 平台应用和 AI 能力接入等需求。",footerLinks:[{href:"solutions.html",label:"解决方案"},{href:"technology.html",label:"平台与技术"},{href:"about.html",label:"关于我们"}]};</script>
+  <script src="site-layout.js?v=20260609-final"></script>
 </body>
 </html>
