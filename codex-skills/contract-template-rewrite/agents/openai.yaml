@@ -1,0 +1,4 @@
+interface:
+  display_name: "合同模板重做"
+  short_description: "按照既有合同模板重做中文合同并核对费用口径和版面检查"
+  default_prompt: "按模板重做这份合同，并保持模板版式、迁移业务条款、核对费用口径和输出 Word 成品。"
